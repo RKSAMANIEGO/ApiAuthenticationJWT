@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    /*background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), rgba(41, 41, 41, 0.9));*/
+
+   background-image: url("https://wallpapers.com/images/featured/fondos-de-zoom-negros-wpsajp1p1h3jwr1v.jpg");
+   background-size: cover;
+
+    color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height:450px;
+    text-align: center;
+    gap: 40px;
+    background:linear-gradient(to top, rgb(49, 48, 49,0.8), rgb(0, 0, 0)) ;
+    /* border: 1px solid black;*/
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(239, 239, 239);
+}
+
+label {
+    font-size: 2rem;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    color: rgb(247, 247, 247);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input,
+button {
+    padding: 8px 5px;
+    border-radius: 5px;
+    border: none;
+    width: 70%;
+}
+
+.registrate{
+    color: rgb(49, 103, 242);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+button {
+    background: linear-gradient(to right, transparent 50%, rgb(226, 226, 226)50%);
+    background-size: 200%;
+    background-position: left;
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+    border: 1px solid rgb(226, 226, 226);
+    color: antiquewhite;
+    border-radius: 20px;
+    width: 50%;
+}
+
+button:hover {
+    background-position: right;
+    color: black;
+    font-weight: bold;
+}
+
+/* PAGINA MENU*/
+
+.wrapper-main {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255));
+}
+
+.wrapper-child:first-child {
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(38, 37, 37);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 10px;
+}
+
+.logo {
+    display: flex;
+    gap: 5px;
+    padding: 5px 10px;
+}
+
+.logo p {
+    border: 1px solid white;
+    padding: 0px 6px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+ul li {
+    padding: 10px 10px;
+}
+
+ul li:hover {
+    background-color: rgb(63, 63, 63);
+    border-radius: 10px;
+}
+
+.fa-solid {
+    padding-inline-end: 10px;
+}
+
+.exit {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+.fa-right-from-bracket {
+    rotate: 180deg;
+}
+
+.wrapper-child:last-child {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.wrapper-header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(33, 33, 33);
+    border-bottom: 1px solid rgba(230, 227, 227, 0.8);
+    padding: 0px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wrapper-header>h2,
+i,
+img,
+p {
+    padding: 10px 5px;
+}
+
+.wrapper-header section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.wrapper-header img {
+    max-width: 2rem;
+    border-radius: 50%;
+}
+
+.wrapper-context {
+    height: 90vh;
+}
